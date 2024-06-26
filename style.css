@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    text-align: center;
+}
+
+#interviewer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#interviewer {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#dialogue-container {
+    margin-top: 20px;
+}
+
+#dialogue {
+    padding: 100px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    max-width: 80%;
+    margin: 0 auto;
+    font-size: 24px;
+}
